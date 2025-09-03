@@ -13,7 +13,7 @@ from collections import deque
 from pathlib import Path
 
 # 🔑 OpenRouter API Key from environment
-API_KEY = "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"
+API_KEY = os.getenv("OPENROUTER_API_KEY")
 
 # 🌐 OpenRouter API Endpoint
 BASE_URL = "https://openrouter.ai/api/v1/chat/completions"
